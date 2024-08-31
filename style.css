@@ -1,0 +1,177 @@
+
+*{
+    border: 0px ;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px ;
+}
+
+body{
+    font-family : "Calibri" ;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%,
+rgba(36,38,36,1) 100%);
+
+}
+
+.navigation-bar{
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #100101;
+   
+    position: fixed;
+    width: 100%;
+}
+.navigation-bar :hover{
+    background-color: #cfc9c9;
+}
+
+.logo img{
+    background-color: rgb(8, 0, 0);
+    color: #0e0e0e;
+    width: 80px;
+    margin: 10px 20px;
+    border-radius: 100px;
+
+}
+
+.search-box{
+    display: flex;
+    flex: 1;
+    margin :0px 10px;
+    color: black;
+}
+
+.search-box input{  
+    display: flex;
+    flex-grow: 1;
+    border : 4opx;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(248, 247, 247);
+}
+    
+.search-box button {
+
+    padding : 5px 10px;
+    border-radius: 0px 5px 5px 0px;
+    background : linear-gradient(90deg, rgb(105, 101, 199) 0%, 
+    rgb(82, 82, 147) 35%, rgba(0,212,255,1) 100%); 
+    cursor: pointer;
+}   
+    
+.search-box button:hover {
+    background-color: rgb(121, 21, 198);
+}
+
+.navig-links a{
+    text-decoration :none;
+    color: rgb(12, 11, 11);
+    margin-left: 10px  ;
+    font-size: 30px;
+    color: rgb(240, 242, 243);
+}
+.navig-links a:hover {
+    text-decoration: underline ;
+
+}
+
+.navig-icons a{
+    margin:30px;
+    color: rgb(130, 98, 10);
+    align-items: flex;
+
+}
+
+.navig-icons img {
+    width: 40px;
+}
+
+.hero-section img{
+   
+  
+    margin:20px;
+    border-radius: 20px;
+   
+
+}
+*
+.fashion-navg{
+    display: flex;
+    align-items:center ;
+    background-color: #0a0a0a;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100%;
+    position: fixed;
+   
+}
+.f-Logo img{
+     border-radius: 100px;
+    
+}
+
+    
+
+.Men-images {
+    height:10px;
+    
+    justify-content:space-around;
+    border-radius:200px;
+    margin: 20px;
+    display :flex;
+    flex-wrap: wrap;
+}
+
+.Men-images img{
+
+    border-radius:10px;
+}
+.woman-f{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    background-color: #FFFFFF;
+    border: 10px; 
+}
+
+.w-images {
+    border: 10px; 
+    justify-content:space-around;
+    margin: 20px;
+    display :flex;
+    flex-wrap: wrap;
+}
+
+.w-images img{
+    border-radius:10px;
+    align-items: normal;
+}
+
+.Kidsimages{
+    justify-content:space-between;
+    margin: 20px;
+    display :flex;
+    flex-wrap: wrap;
+}
+
+.Kidsimages img{
+    border-radius: 20px;
+}
+
+    
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
